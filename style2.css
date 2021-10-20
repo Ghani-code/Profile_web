@@ -1,0 +1,57 @@
+body {
+  background-image: url(img/baru.webp);
+}
+table {
+  text-align: center;
+  border: 8px solid rgb(5, 5, 5);
+  color: lightgoldenrodyellow;
+  border-radius: 15px;
+}
+tr,
+td {
+  padding: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+table {
+  line-height: 11px;
+  border-spacing: 15px;
+  border-collapse: separate;
+  margin-top: 20px;
+}
+#profile {
+  position: relative;
+  top: 80px;
+  margin-left: 10px;
+}
+input {
+  width: 400px;
+}
+footer {
+  color: lightgoldenrodyellow;
+  text-align: center;
+}
+@media screen and (max-width: 480px) {
+  input {
+    width: 250px;
+  }
+  tr,
+  td {
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+  #profile {
+    position: relative;
+    top: 60px;
+    width: 40%;
+  }
+  table {
+    margin-top: 13px;
+    border-radius: 40px;
+  }
+  footer {
+    font-size: 13px;
+  }
+}

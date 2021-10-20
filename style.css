@@ -1,0 +1,228 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+nav ul {
+  margin-top: 15px;
+}
+#judul {
+  margin-top: 220px;
+}
+body {
+  background-image: url(img/wallpaperbetter.jpg);
+  font-family: "Times New Roman", Times, serif;
+}
+/* navbar */
+nav {
+  height: 90px;
+  border-radius: 0px;
+  position: sticky;
+  background-color: whitesmoke;
+}
+ul #sidebar {
+  margin-top: -10px;
+  top: 2px;
+}
+
+.daftar {
+  font-family: monospace;
+  border: 3px solid black;
+  padding: 15px;
+  border-radius: 8px;
+}
+h2 {
+  margin-left: 20px;
+  font-size: 34px;
+  font-family: "Permanent Marker", cursive;
+  margin-bottom: -0px;
+}
+#logo h2 {
+  margin-bottom: 40px;
+}
+
+ul {
+  list-style: none;
+}
+ul,
+li {
+  display: inline-block;
+  line-height: 0px;
+  margin: 20px;
+}
+ul li a {
+  color: black;
+  font-weight: lighter;
+  font-size: 22px;
+  margin-top: 100px;
+  margin-right: 10px;
+  text-decoration: none;
+  margin-bottom: -90px;
+}
+a:hover {
+  background-color: grey;
+  padding: 5px;
+  border-radius: 11px;
+  color: white;
+}
+
+.daftar:hover {
+  background-color: grey;
+}
+table {
+  background-color: transparent;
+  position: relative;
+  margin-top: 150px;
+}
+table,
+tr,
+td,
+th {
+  border: 1px solid rgb(112, 101, 101);
+  text-align: center;
+  color: antiquewhite;
+}
+tr,
+td,
+th {
+  padding: 20px;
+}
+h1 {
+  margin-top: 14%;
+}
+div.profile {
+  padding: 1px;
+  color: beige;
+  margin-bottom: 50%;
+  position: relative;
+  margin-top: 80%;
+}
+a {
+  cursor: pointer;
+}
+footer {
+  color: aliceblue;
+  height: auto;
+  width: 100vw;
+  padding-top: 0px;
+  background: rgb(0, 0, 0);
+  font-family: "open sans";
+}
+.hi {
+  color: rgb(175, 155, 155);
+  position: relative;
+  font-size: 30px;
+  font-family: "Architects Daughter", cursive;
+  margin-left: 20px;
+  top: -20px;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+.socials a {
+  color: azure;
+}
+.fotter-bottom {
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  .hi {
+    font-size: 24px;
+  }
+  #profile {
+    margin-top: 700px;
+    float: none;
+  }
+  #footer {
+    margin-top: 700px;
+  }
+  #table {
+    margin-top: 180px;
+  }
+  #judul {
+    margin-top: 250px;
+  }
+  nav ul li {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  nav {
+    line-height: 70px;
+    width: 500px;
+  }
+  nav ul {
+    margin-top: 65px;
+  }
+
+  #logo {
+    height: 120px;
+    padding: 0px;
+  }
+  h2 {
+    margin-top: -7px;
+    font-size: 26px;
+  }
+  #navbar {
+    height: 20%;
+    position: relative;
+  }
+  #sidebar {
+    margin-top: 47px;
+  }
+  .socials li a {
+    margin-right: 2px;
+    margin-left: -8px;
+  }
+  #footer {
+    margin-top: 1000px;
+    width: 500px;
+  }
+  #footer ul li a {
+    size: 5px;
+  }
+  #footer p {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 24px;
+    width: 400px;
+    margin-left: 60px;
+  }
+  #sidebar li a {
+    margin-right: 2px;
+  }
+  #profile h1 {
+    font-size: 30px;
+  }
+  #profile img {
+    width: 150px;
+  }
+  #profile p {
+    font-size: 18px;
+  }
+  #profile .perkenalan {
+    width: 500px;
+  }
+  #footer h3 {
+    margin-right: 80px;
+  }
+  #footer p {
+    margin-right: 80px;
+  }
+  .socials {
+    margin-right: 120px;
+  }
+}
